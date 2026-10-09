@@ -5,8 +5,8 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.stream.Stream;
 
-public class BuscaPalabra {
-
+public class BuscarPalabraPro {
+    
     public static void main(String[] args) throws IOException {
         String nomFichero = args[0]; 
         String palabra = args[1];
@@ -24,6 +24,6 @@ public class BuscaPalabra {
             System.out.println(coincLineas.get(i));
         }
 
-        System.out.println("La palabra " + palabra + " se repite " + coincLineas.size());
+        System.out.println("La palabra se repite " + coincLineas.size());
     }
 }
